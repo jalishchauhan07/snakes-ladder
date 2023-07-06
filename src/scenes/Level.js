@@ -90,7 +90,7 @@ class Level extends Phaser.Scene {
 			});
 		});
 	}
-
+//hello
 	moveBySnakeBite({ nStart, nEnd }, cords,player) {
 		console.log(player,this.gameBoardPrefab[player])
 		this.gameBoardPrefab[player].setVisible(false)
