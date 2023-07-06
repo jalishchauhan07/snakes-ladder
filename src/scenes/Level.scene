@@ -1,0 +1,121 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "aa5fc421-0238-4cb2-b716-e8b7a4e2c48b",
+            "label": "backgroundContainer",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "79da2464-d27c-4283-96dd-2facefadbf11",
+                    "label": "gameBackground",
+                    "components": [],
+                    "texture": {
+                        "key": "game-background"
+                    },
+                    "x": 540,
+                    "y": 960
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "816efd59-8b8b-4c66-88d2-bccd08acd6ef",
+            "label": "diceRollContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b94b2e61-2de3-4ce0-9189-5c3ea091201d",
+                    "label": "diceBackground",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "dice-background"
+                    },
+                    "x": 540,
+                    "y": 1750,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1ecba30a-5317-4da3-8978-dc6caed9e43f",
+                    "label": "dice",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "diceValues",
+                        "frame": 0
+                    },
+                    "x": 540,
+                    "y": 1750,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                }
+            ]
+        },
+        {
+            "prefabId": "3292c0da-4c48-45bf-a5a7-0060000a606e",
+            "id": "ce9471c9-2270-49e6-a121-5193ee5db29e",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "gameBoardPrefab",
+            "scope": "CLASS",
+            "components": [],
+            "x": 540,
+            "y": 960,
+            "scaleX": 1,
+            "scaleY": 1,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "f3a29dfc-3190-496d-b49e-e03039e3dea1",
+            "label": "popup_",
+            "scope": "CLASS",
+            "components": [],
+            "x": 540,
+            "y": 960,
+            "visible": false,
+            "isFilled": true,
+            "width": 728,
+            "height": 328
+        },
+        {
+            "type": "Text",
+            "id": "3e740d33-1045-443f-9e8a-45d69feda472",
+            "label": "message_",
+            "scope": "CLASS",
+            "components": [],
+            "x": 245,
+            "y": 963,
+            "visible": false,
+            "align": "center",
+            "fontSize": "50px",
+            "color": "#000000ff"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

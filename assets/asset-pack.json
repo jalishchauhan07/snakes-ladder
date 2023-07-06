@@ -1,0 +1,104 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/images/game/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/images/game/blue-pawn.png",
+                "type": "image",
+                "key": "blue-pawn"
+            },
+            {
+                "url": "assets/images/game/dice-background.png",
+                "type": "image",
+                "key": "dice-background"
+            },
+            {
+                "url": "assets/images/spritesheet/diceRoll.png",
+                "frameConfig": {
+                    "frameWidth": 170,
+                    "frameHeight": 170,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "diceRoll"
+            },
+            {
+                "url": "assets/images/spritesheet/diceValues.png",
+                "frameConfig": {
+                    "frameWidth": 170,
+                    "frameHeight": 170,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "diceValues"
+            },
+            {
+                "url": "assets/images/game/game-background.png",
+                "type": "image",
+                "key": "game-background"
+            },
+            {
+                "url": "assets/images/game/game-board.png",
+                "type": "image",
+                "key": "game-board"
+            },
+            {
+                "url": "assets/images/game/game-logo.png",
+                "type": "image",
+                "key": "game-logo"
+            },
+            {
+                "url": "src/prefab/GameBoard.js",
+                "type": "script",
+                "key": "GameBoard"
+            },
+            {
+                "url": "assets/images/game/green-pawn.png",
+                "type": "image",
+                "key": "green-pawn"
+            },
+            {
+                "url": "src/scenes/Level.js",
+                "type": "sceneFile",
+                "key": "Level"
+            },
+            {
+                "url": "assets/images/game/ping-background.png",
+                "type": "image",
+                "key": "ping-background"
+            },
+            {
+                "url": "assets/images/game/red-pawn.png",
+                "type": "image",
+                "key": "red-pawn"
+            },
+            {
+                "url": "assets/images/game/yellow-pawn.png",
+                "type": "image",
+                "key": "yellow-pawn"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
